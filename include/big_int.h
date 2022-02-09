@@ -45,7 +45,7 @@ unsigned bi_get_ui(const bi_pt a);
 
 void bi_set_si(bi_pt res, int a);
 
-unsigned bi_get_si(const bi_pt a);
+int bi_get_si(const bi_pt a);
 
 void bi_left_shift(bi_pt res, const bi_pt a, BIG_SIZE num);
 

@@ -114,7 +114,7 @@ void bi_set_si(bi_pt res, int a) {
     bi_fit(res);
 }
 
-unsigned bi_get_si(const bi_pt a) {
+int bi_get_si(const bi_pt a) {
     unsigned result = 0;
     if(a->size > 1) {
         result = a->digits[1];
