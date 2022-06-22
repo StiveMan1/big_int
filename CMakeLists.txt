@@ -4,7 +4,7 @@ project(big_int C)
 set(CMAKE_C_STANDARD 99)
 set(PROJECT_VERSION 1.0)
 set(DEFAULT_BUILD_TYPE "Release")
-set(SOURCE_FILES src/big_int.c)
+set(SOURCE_FILES src/big_int.c src/big_int_ui.c src/big_int_si.c src/big_int_bi.c)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     message(STATUS "Setting build type to '${DEFAULT_BUILD_TYPE}' as none was specified.")
